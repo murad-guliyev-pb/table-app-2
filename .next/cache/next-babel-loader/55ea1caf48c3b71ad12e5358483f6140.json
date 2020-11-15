@@ -1,0 +1,1 @@
+{"ast":null,"code":"import \"../global-styles.css\";","map":{"version":3,"sources":["/Users/mguliyev/Documents/table-app-new/pages/_app.tsx"],"names":[],"mappings":"AAAA,OAAO,sBAAP","sourcesContent":["import \"../global-styles.css\";\n"]},"metadata":{},"sourceType":"module"}
