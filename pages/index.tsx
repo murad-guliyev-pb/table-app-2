@@ -6,7 +6,7 @@ import AppSkeleton from "../components/appSkeleton";
 import { baseUrl, fetcher } from "../helpers/models";
 
 const TableApp = ({ initialData }): JSX.Element => {
-    const { data, error } = useSWR(`${baseUrl()}/employee`, fetcher, { initialData });
+    const { data, error } = useSWR(`${process.env.NEXT_PUBLIC_BASE_URL}/employee`, fetcher, { initialData });
 
     if (error) return <div>failed to load</div>;
     if (!data) return <AppSkeleton />;
@@ -15,7 +15,7 @@ const TableApp = ({ initialData }): JSX.Element => {
 };
 
 export async function getServerSideProps() {
-    const data = await fetcher(`${baseUrl()}/employee`);
+    const data = await fetcher(`${process.env.NEXT_PUBLIC_BASE_URL}/employee`);
     return { props: { data } };
 }
 

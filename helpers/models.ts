@@ -1,5 +1,3 @@
-export const baseUrl = () => "https://table-app-2.vercel.app/api";
-
 export const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
 export interface IEmployee {
