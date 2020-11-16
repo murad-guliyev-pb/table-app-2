@@ -1,6 +1,6 @@
-# Table App
+# Table App 2
 
-Link for [Demo](https://table-app-eta.vercel.app).
+Link for [Demo](table-app-2.vercel.app).
 
 ## Available Scripts
 
@@ -10,7 +10,7 @@ For review the project in localhost you can run in the project directory:
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `npm test`
+### `npm run test`
 
 Launches tests.
 
