@@ -1,4 +1,4 @@
-export const baseUrl = () => "http://localhost/api";
+export const baseUrl = () => "http://localhost:3000/api";
 
 export const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
