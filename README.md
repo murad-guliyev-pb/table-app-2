@@ -6,30 +6,23 @@ Link for [Demo](https://table-app-eta.vercel.app).
 
 For review the project in localhost you can run in the project directory:
 
-### `npm i && npm start`
+### `npm i && npm run dev`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm test`
 
-Launches tests.\
+Launches tests.
 
 ## Used technologies
 
-This project was bootstrapped with Create React App.
-
+Next JS\
 React\
 Typescript\
 Webpack\
 Material-UI\
+Emotion\
 Jest\
 React-testing-library\
 eslint\
 prettier
-
-## Needs to improve
-
-1. Add skeleton
-2. Add mock server (fetching data)
-3. Support SSR
-4. Implement css in js

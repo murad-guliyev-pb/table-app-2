@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport \"../globalStyles.css\";\nimport { jsx as ___EmotionJSX } from \"@emotion/core\";\n\nfunction MyApp({\n  Component,\n  pageProps\n}) {\n  return ___EmotionJSX(Component, pageProps);\n}\n\nexport default MyApp;","map":null,"metadata":{},"sourceType":"module"}

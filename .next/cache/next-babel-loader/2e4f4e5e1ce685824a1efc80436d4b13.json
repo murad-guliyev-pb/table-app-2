@@ -1,1 +1,0 @@
-{"ast":null,"code":"export var baseUrl = function baseUrl() {\n  return \"http://localhost:3000/api\";\n};\nexport var fetcher = function fetcher(url) {\n  return fetch(url).then(function (res) {\n    return res.json();\n  });\n};","map":null,"metadata":{},"sourceType":"module"}
