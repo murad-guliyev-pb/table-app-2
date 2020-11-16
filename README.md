@@ -1,6 +1,6 @@
-# Table App 2
+# Table App
 
-Link for [Demo](table-app-2.vercel.app).
+Link for [Demo](https://table-app-2.vercel.app).
 
 ## Available Scripts
 
